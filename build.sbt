@@ -3,7 +3,7 @@ val commonSettings = Seq(
   organization := "io.leonard",
   scalacOptions ++= Seq("-Xfatal-warnings", "-feature"))
 
-lazy val `flow-engine` = project.in(file(".")).
+lazy val `sbt-template` = project.in(file(".")).
   settings(commonSettings: _*).
   settings(
     libraryDependencies ++= Seq(
