@@ -3,7 +3,7 @@ import scalariform.formatter.preferences._
 val commonSettings = Seq(
   scalaVersion := "2.11.8",
   organization := "io.leonard",
-  scalacOptions ++= Seq("-Xfatal-warnings", "-feature"))
+  scalacOptions ++= Seq("-Xfatal-warnings", "-feature", "-language:postfixOps"))
 
 scalariformSettings ++ Seq(
   ScalariformKeys.preferences := ScalariformKeys.preferences.value
