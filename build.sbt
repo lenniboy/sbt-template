@@ -11,7 +11,6 @@ scalariformSettings ++ Seq(
     .setPreference(DoubleIndentClassDeclaration, true)
     .setPreference(PreserveDanglingCloseParenthesis, true)
     .setPreference(PreserveSpaceBeforeArguments, true)
-    .setPreference(RewriteArrowSymbols, true)
 )
 
 lazy val `sbt-template` = project.in(file(".")).
