@@ -1,2 +1,2 @@
 -Dconfig.profile=local
--mem=2048
+-mem 2048
