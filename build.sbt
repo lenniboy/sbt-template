@@ -17,7 +17,8 @@ lazy val `sbt-template` = project.in(file(".")).
   settings(commonSettings: _*).
   settings(
     libraryDependencies ++= Seq(
-      "org.slf4j" % "slf4j-api" % "1.7.21",
+      "org.clapper" %% "grizzled-slf4j" % "1.1.0",
+      "ch.qos.logback" % "logback-classic" % "1.1.7",
       "org.scalatest" %% "scalatest" % "3.0.0" % "test"
     )
   )
